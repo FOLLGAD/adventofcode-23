@@ -1,5 +1,5 @@
 import { run, print, sum } from "../util.ts";
-// 21:31
+// 21:31 start
 // 21:42 🌟
 // 22:04 🌟🌟
 function primeFactors(n) {
