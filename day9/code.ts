@@ -35,7 +35,8 @@ const main = async (input: string) => {
     return [c, f];
   });
   print(newVals);
-  return sum(v.map(([a, b]) => b));
+  return sum(v.map(([a, b]) => b)); // part2
+  return sum(v.map(([c, f]) => c));
 };
 
 await run(main, import.meta.url, "114");
