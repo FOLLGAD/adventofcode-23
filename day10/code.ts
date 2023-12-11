@@ -1,12 +1,5 @@
 import { run, print, sum } from "../util.ts";
 
-// 22:48:40 start
-// 23:32:40 stop
-// 23:56 start
-// 00:05:40 🌟
-// 16:29:51 start
-// 16:45?
-
 const m = {
   F: [
     [1, 0],
