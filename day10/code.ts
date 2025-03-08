@@ -108,7 +108,7 @@ const main = async (input: string) => {
     l[c] ||= [];
     l[c].push(p);
     return l;
-  }, []);
+  }, [] as [number, number][]);
   const all = [
     ...l.map((a) => a[0]),
     ...l
